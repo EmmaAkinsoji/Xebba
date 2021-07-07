@@ -1,0 +1,81 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+background-color: darkblue;
+}
+
+.container{
+margin: auto;
+width: 50%;
+max-width: 250px;
+background-color: rgba(31, 178, 247, 0.363);
+padding: 20px;
+box-shadow: rgb(0, 0, 0);
+margin-top: 25px;
+height: 390px;
+}
+
+.container .inner{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 350px;
+width: 200px;
+margin: auto;
+position: relative;
+}
+
+.container .inner h3{
+text-transform: uppercase;
+text-shadow: black;
+color: yellow;
+font-weight: bolder;
+font-size: 30px;
+margin-top: 2px;
+}
+
+
+.container .inner #countup, #countdown{
+width: 150px;
+padding: 15px;
+height: 35px;
+border-radius: 40px;
+border: none;
+background-color:  yellow;
+padding-bottom: 30px;
+margin-top: 0;
+}
+
+.container .inner button{
+font-size: 14px;
+font-weight: bolder;
+color: red;
+text-transform: uppercase;
+text-shadow: black;
+text-align: center;
+}
+
+.container .inner #number{
+border: none;
+width : 150px;
+color: whitesmoke;
+background: none;
+font-size: 150px;
+font-weight: bolder;
+text-align: center;
+}
+
+.container .inner #countup:hover{
+background-color: darkblue;
+color: whitesmoke;
+width: 160px;
+cursor: pointer;
+}
+
+.container .inner #countdown:hover{
+background-color: darkblue;
+color: whitesmoke;
+width: 160px;
+cursor: pointer;
+}
+
