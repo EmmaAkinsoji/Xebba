@@ -3,15 +3,18 @@ margin: 0;
 padding: 0;
 display: flex;
 background-color: darkblue;
+background: -webkit-linear-gradient(
+-180deg, darkblue, rgb(34, 34, 216), darkblue
+);
 }
 
 .container{
 margin: auto;
 width: 50%;
 max-width: 250px;
-background-color: rgba(31, 178, 247, 0.363);
+background-color: rgba(13, 75, 209, 0.363);
 padding: 20px;
-box-shadow: rgb(0, 0, 0);
+box-shadow: 1px 1px 1px #202020;
 margin-top: 25px;
 height: 390px;
 }
@@ -25,17 +28,18 @@ margin: auto;
 position: relative;
 }
 
-.container .inner h3{
+.container .inner h2{
 text-transform: uppercase;
 text-shadow: black;
 color: yellow;
 font-weight: bolder;
-font-size: 30px;
-margin-top: 2px;
+font-size: 45px;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 
-.container .inner #countup, #countdown{
+.container .inner #countUp, #countDown{
 width: 150px;
 padding: 15px;
 height: 35px;
@@ -53,26 +57,30 @@ color: red;
 text-transform: uppercase;
 text-shadow: black;
 text-align: center;
+border: none;
+box-shadow: 1px 1px 1px #202020;
 }
 
 .container .inner #number{
 border: none;
-width : 150px;
+width : 200px;
 color: whitesmoke;
 background: none;
 font-size: 150px;
 font-weight: bolder;
 text-align: center;
+margin-top: 0;
+margin-bottom: 0;
 }
 
-.container .inner #countup:hover{
+.container .inner #countUp:hover{
 background-color: darkblue;
 color: whitesmoke;
 width: 160px;
 cursor: pointer;
 }
 
-.container .inner #countdown:hover{
+.container .inner #countDown:hover{
 background-color: darkblue;
 color: whitesmoke;
 width: 160px;
